@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.toolbar__filter {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.toolbar__filter_active {
+  background-color: aquamarine;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+}
+
+.img {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
